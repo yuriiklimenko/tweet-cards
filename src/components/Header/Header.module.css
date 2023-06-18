@@ -1,0 +1,26 @@
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f2f2f2;
+  padding: 10px;
+  background-color: #753bcb;
+}
+
+.link {
+  border-radius: 4px;
+  padding: 15px 30px;
+  margin: 0 10px;
+  color: #333;
+  text-decoration: none;
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-size: 17px;
+  color: #ebd8ff;
+  background-color: #522da5;
+  transition: background-color 0.3s ease;
+}
+
+.link:hover {
+  background-color: #311b71;
+}

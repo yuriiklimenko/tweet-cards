@@ -1,0 +1,7 @@
+.container {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+  height: 85vh;
+  width: 100%;
+}

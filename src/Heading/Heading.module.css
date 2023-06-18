@@ -1,0 +1,12 @@
+.heading {
+  font-family: "Montserrat";
+  font-weight: 700;
+
+  color: #522da5;
+
+  font-size: 24px;
+
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 25px;
+}

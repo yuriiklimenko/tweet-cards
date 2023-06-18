@@ -1,0 +1,27 @@
+.container {
+  margin-top: 20px;
+  display: inline-flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.container:hover .icon,
+.container:hover .text {
+  color: #753bcb;
+}
+
+.icon {
+  margin-right: 5px;
+
+  color: #522da5;
+  transition: color 0.3s ease;
+}
+
+.text {
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-size: 17px;
+  color: #522da5;
+  text-transform: uppercase;
+  transition: color 0.3s ease;
+}

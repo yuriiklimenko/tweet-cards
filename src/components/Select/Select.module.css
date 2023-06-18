@@ -1,0 +1,32 @@
+.selectContainer {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.selectInput {
+  background-color: #522da5;
+  padding: 8px 12px;
+  border-radius: 4px;
+  border: none;
+  width: 155px;
+
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-size: 16px;
+  color: #ebd8ff;
+  cursor: pointer;
+}
+
+.selectInput:focus {
+  outline: none;
+}
+
+.selectInput option {
+  background-color: #522da5;
+  color: #ebd8ff;
+}
+
+.selectInput option:checked {
+  background-color: #8b6bbd;
+}
